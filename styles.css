@@ -1,18 +1,21 @@
 html    {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+/*i styled the html element so that the whole page uses the same font*/
 
 header, footer  {background-color: rgb(0, 168, 0);
                 text-align: center;
                 padding: 1px;}
+/*I changed the color of the header and footer to have some contrast with the rest of the page.*/
 
 header {height: 65px;}
+/*the height setting here shortens the header container*/
 
-body {background-color: #206720;}
-
-img {text-align: center;}
+body {background-color: #206720;} 
+/*this color setting sets the background color for the webpage*/
 
 h1  {color: #144214;
     font-size:x-large;
-    margin-bottom: 1px;}
+    margin-bottom: 1px;} 
+/* the margin setting here allows the h1 and h3 to be closer together in the webpage*/
     
 h2  {color: #42c042;
     font-size: large;
@@ -21,25 +24,19 @@ h2  {color: #42c042;
 h3  {color: #206720;
     font-size: medium;
     margin-top: 1px;}
+/*the margin setting above works together with the h1 margin to group h1 and h3 closer together*/
 
 main p, ul, ol, hr  {color: darkgray;
                     margin-left: 200px;
                     margin-right: 200px;}
-
+/*these style rules apply to all paragraphs and lists and horizontal rules in the main element*/
 
 
 footer  {height: 35px;
         margin-top: 1px;}
 
-
-
-
-
-
-
-
-
 a:link      {color:blue}
 a:visited   {color:rgb(0, 0, 186)}
 a:hover     {color:rgb(60, 151, 255)}
 a:active    {color:aqua}
+/*this group of rules applies styles to the links used in the webpage.*/
